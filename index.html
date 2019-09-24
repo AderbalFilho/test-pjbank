@@ -8,16 +8,21 @@
 </head>
 
 <body>
-    Name: <input value="Cliente Exemplo" type="text" name="nome_cartao" id="nome"><br>
+    <!--
+      Name: <input value="Cliente Exemplo" type="text" name="nome_cartao" id="nome"><br>
+      Expiry Month: <input value="05" type="text" name="mes_vencimento" id="vencimento_mes"><br>
+      Expiry Year: <input value="2018" type="text" name="ano_vencimento" id="vencimento_ano"><br>
+      CPF: <input value="64111456529" type="text" name="cpf_cartao" id="cpf"><br>
+      Email: <input value="api@pjbank.com.br" type="text" name="email_cartao" id="email"><br>
+      Phone: <input value="978456723" type="text" name="celular_cartao" id="phone"><br>
+      CVV: <input value="123" type="text" name="codigo_cvv" id="cvv"><br>
+    -->
     Card Number: <input value="4012001037141112" type="text" name="numero_cartao" class="pjbank-cartao" id="cartao" placeholder="Valid Card Number" required  /><br>
-    Expiry Month: <input value="05" type="text" name="mes_vencimento" id="vencimento_mes"><br>
-    Expiry Year: <input value="2018" type="text" name="ano_vencimento" id="vencimento_ano"><br>
-    CPF: <input value="64111456529" type="text" name="cpf_cartao" id="cpf"><br>
-    Email: <input value="api@pjbank.com.br" type="text" name="email_cartao" id="email"><br>
-    Phone: <input value="978456723" type="text" name="celular_cartao" id="phone"><br>
-    CVV: <input value="123" type="text" name="codigo_cvv" id="cvv"><br>
+    Description: <input value="Pagamento de teste" type="text" name="descricao_pagamento" id="description" required  /><br>
+    Value: <input value="100" type="text" name="valor" id="value" required  /><br>
+    Installments: <input value="100" type="text" name="parcelas" id="installments" required  /><br>
     <button type="submit" value="Submit">Submit</button>
-    <input type="hidden" name="pjbank-token" class="pjbank-token">
+    <input type="hidden" name="pjbank-token" class="pjbank-token" id="token_cartao">
 </body>
 
 <script src="./js/post.js" ></script>
