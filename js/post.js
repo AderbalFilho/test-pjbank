@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("button").click(function () {
     $.ajax({
-      url: 'https://api.pjbank.com.br/contadigital/1264e7bea04bb1c24b07ace759f64a1bd65c8560/recebimentos/tokens',
+      url: 'https://api.pjbank.com.br/contadigital/e0727263cc7a983f0aae5411ad86c5a144b8ed28/recebimentos/tokens',
       type: 'post',
       crossDomain: true,
       data: {
@@ -19,7 +19,7 @@ $(document).ready(function () {
         // "Access-Control-Allow-Origin": "*",
         // 'Access-Control-Allow-Methods': 'GET, POST, PUT',
         "Content-Type": "application/json",
-        'X-CHAVE': 'ef947cf5867488f744b82744dd3a8fc4852e529f'
+        'X-CHAVE': 'e9db986de751de918ca19a1c377f0b7c313915f8'
       },
       success: function (data, status) {
         console.log("a");
