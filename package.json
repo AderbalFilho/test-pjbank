@@ -1,0 +1,23 @@
+{
+  "name": "test-pjbank",
+  "version": "1.0.0",
+  "description": "Credit card tokenization test with PJBank. The credential and key are only for tests (from documentation), so they aren't sensible data.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AderbalFilho/test-pjbank.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AderbalFilho/test-pjbank/issues"
+  },
+  "homepage": "https://github.com/AderbalFilho/test-pjbank#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
